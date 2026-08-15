@@ -28,5 +28,11 @@
 ## 1.0.9
  - SDK related Issues Fixed.
 
+## 2.0.2
+ - Android: Java 17 and AGP 9 / built-in Kotlin dual-compat (apply KGP only when AGP < 9 or `android.builtInKotlin=false`).
+
+## 2.0.1
+ - bump version 2.0.1, fixed gradle file for flutter 3.27
+
 ## 2.0.0
  - Migrated to Flutter v3.7.0
