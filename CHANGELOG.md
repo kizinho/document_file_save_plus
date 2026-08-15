@@ -28,6 +28,9 @@
 ## 1.0.9
  - SDK related Issues Fixed.
 
+## 2.0.3
+ - iOS: Swift Package Manager layout (`Package.swift`) while keeping CocoaPods.
+
 ## 2.0.2
  - Android: Java 17 and AGP 9 / built-in Kotlin dual-compat (apply KGP only when AGP < 9 or `android.builtInKotlin=false`).
 

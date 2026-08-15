@@ -13,13 +13,11 @@ A new Flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'document_file_save_plus/Sources/document_file_save_plus/**/*.swift'
   s.dependency 'Flutter'
-  s.platform = :ios, '9.0'
+  s.platform = :ios, '13.0'
 
-  # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'
-  # Privacy manifest
-  s.resource_bundles = {'document_file_save_plus' => ['PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'document_file_save_plus' => ['document_file_save_plus/Sources/document_file_save_plus/PrivacyInfo.xcprivacy']}
 end
